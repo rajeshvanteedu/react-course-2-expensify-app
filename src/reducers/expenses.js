@@ -23,6 +23,8 @@ const expensesReducerDefaultState = [];
                 }
             });            
         }
+        case 'SET_EXPENSES':
+                return action.expenses;
         default:
             return state;
     }
