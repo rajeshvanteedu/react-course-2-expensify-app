@@ -2,8 +2,19 @@
 // *{
 //     color: $brand-color;
 // }
-@import './base/_settings.scss';
-@import './base/_base.scss';
+@import './base/settings.scss';
+@import './base/base.scss';
+@import './components/box-layout.scss';
+@import './components/button.scss';
+@import './components/header.scss';
+@import './components/content-container';
+@import './components/page-header';
+@import './components/input-group';
+@import './components/inputs';
+@import './components/form';
+@import './components/visibility';
+@import './components/list';
+@import './components/loader';
 // @import './components/_add-option.scss';
 // @import './components/_button.scss';
 // @import './components/_container.scss';
